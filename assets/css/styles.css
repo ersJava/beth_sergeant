@@ -49,15 +49,23 @@ main {
     font-size: 52px;
     color: #d2c4e7;
     text-align: center;
-    line-height: 60px;   
+    line-height: 40px;   
 }
+
+/* .hello-header2 {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 52px;
+    color: #b2d2fe;
+    text-align: center;
+    line-height: 60px;   
+} */
 
 .hello-header-sub {
     font-family: 'Cutive Mono', monospace;
-    font-size: 26px;
+    font-size: 22px;
     color: black;
     text-align: center;
-    line-height:40px;  
+    line-height:20px;  
 }
 
 .hello-header-h3 {
@@ -72,19 +80,17 @@ main {
 /* About, Contact & Port Page */
 .content-header {
     font-family: 'Carrois Gothic SC', sans-serif;
-    font-size: 34px;
+    font-size: 42px;
     color: #d2c4e7;
-    text-align: center;
     line-height: 30px; 
 }
 
 
 p {
     font-family: 'Cutive Mono', monospace;
-}
+    margin: 50px;
+    font-weight: 700;
 
-#picture-css {
-    padding: 8px;
 }
 
 /* Content Container */
