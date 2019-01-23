@@ -49,7 +49,7 @@ main {
     font-size: 52px;
     color: #d2c4e7;
     text-align: center;
-    line-height: 40px;   
+    line-height: 40px;
 }
 
 /* .hello-header2 {
@@ -65,7 +65,7 @@ main {
     font-size: 22px;
     color: black;
     text-align: center;
-    line-height:20px;  
+    line-height: 20px;
 }
 
 .hello-header-h3 {
@@ -73,8 +73,8 @@ main {
     font-size: 28px;
     color: #b2d2fe;
     text-align: left;
-    line-height: 55px;  
-   
+    line-height: 55px;
+
 }
 
 /* About, Contact & Port Page */
@@ -82,7 +82,7 @@ main {
     font-family: 'Carrois Gothic SC', sans-serif;
     font-size: 42px;
     color: #d2c4e7;
-    line-height: 30px; 
+    line-height: 30px;
 }
 
 
@@ -93,6 +93,18 @@ p {
 
 }
 
+/* Contact form text */
+#contact-text {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#contact {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 700;
+}
+
 /* Content Container */
 #block {
     background: white;
@@ -100,6 +112,20 @@ p {
     margin-bottom: 86px;
     padding: 85px;
     border: 1px solid rgb(194, 192, 192);
+}
+
+/* Contact form box */
+.form-group {
+    font-family: 'Cutive Mono', monospace;
+}
+
+/* Resume Button */
+#button-style {
+    color: black;
+    font-family: 'Cutive Mono', monospace;
+    /* font-family: 'Carrois Gothic SC', sans-serif; */
+    padding: 10px;
+    background: white;
 }
 
 
@@ -122,6 +148,25 @@ p {
 #space {
     color: white;
 }
+
+/* unvisited link */
+a:link {
+    color: #d2c4e7;
+}
+
+/* visited link */
+/* a:visited {
+    color: green; */
+
+/* mouse over link */
+/* a:hover {
+    color:red;
+}
+
+/* selected link */
+/* a:active {
+    color: #b2d2fe;
+} */ 
 
 
 /* Media Queries */

@@ -52,7 +52,92 @@
     <!-- Start of container -->
     <div class="container border-light">
         <div class="col-12" id="block">
-            <h1>Contact Page</h1>
+            <div class="row">
+                <div class="col-4">
+                    <h1 class="content-header">Get In Touch</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <span id="contact">Have a question or want to work with me work? Please fill out this form below or send an email to
+                            <a href="mailto:ersergeant@gmail.com">ersergeant@gmail.com</a>. 
+                      
+                    <br>
+                    <br>
+                    Let's get social!</span id="contact">
+                    <a href="https://www.linkedin.com/in/beth-sergeant-69202656/" target="_blank"><img src="assets/images/linkedin.png"
+                            class="social" alt="Linkedin logo" style="width: 30px; height: 30px" id="social"></a><span
+                        id=space>...</span>
+                    <a href="https://github.com/ersJava" target="_blank"><img src="assets/images/github.jpg" class="social"
+                            alt="Github logo" style="width: 28px; height: 28px" id="social"></a><span id=space>...</span>
+                    <a href="https://www.instagram.com/beth_sergeant/" target="_blank"><img src="assets/images/instagram.png"
+                            class="social" alt="Instagram logo" style="width: 26px; height: 26px" id="social"></a>
+                </div>
+            </div>
+            <br>
+            <br>
+<!-- Will need to get the contact form to send to email -->
+            <form id="contact-form" method="post" action="contact.php" role="form">
+                <div class="messages"></div>
+                <div class="controls">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name"><span id="contact-text">First Name *required</span></label>
+                                <input id="form_name" type="text" name="name" class="form-control" required="required"
+                                    data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname"><span id="contact-text">Last Name *required</span></label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" required="required"
+                                    data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email"><span id="contact-text">Email *required</span></label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder=""
+                                    required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_phone"><span id="contact-text">Phone</span></label>
+                                <input id="form_phone" type="phone" name="phone" class="form-control" placeholder="">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message"><span id="contact-text">Message</span></label>
+                                <textarea id="form_message" name="message" class="form-control" rows="4" data-error="Please, leave me a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" id="button-style" class="btn" value="Send message">
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+
+
+
+
         </div>
     </div>
 
