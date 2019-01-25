@@ -5,3 +5,5 @@
 2. Add content for bio
 3. Portfolio page - add dymanic to buttons
 4. Make responsive
+5. Add updated resume
+6. Get real photos for placeit-mockups
