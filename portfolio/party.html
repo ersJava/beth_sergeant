@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Cutive+Mono|Major+Mono+Display" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.1/css/mdb.min.css" rel="stylesheet">
@@ -24,8 +24,8 @@
 
     <nav class="navbar border-bottom border-light navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="hellopage.html" id="logo01">betH</a>
-            <a class="navbar-brand" href="hellopage.html" id="logo02">serGeant</a>
+            <a class="navbar-brand" href="../hellopage.html" id="logo01">betH</a>
+            <a class="navbar-brand" href="../hellopage.html" id="logo02">serGeant</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,13 +33,13 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="../about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactme.html">Contact</a>
+                        <a class="nav-link" href="../portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contactme.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -54,54 +54,49 @@
         <div class="col-12" id="block">
             <div class="row">
                 <div class="col-4">
-                    <h1 class="content-header">Portfolio</h1>
+                    <div id="sm-header">Party Like It's 1999</div>
                     <hr>
                 </div>
             </div>
 
-            <!-- Project icon containers -->
-            <!-- Will make the icons dymanic later, hover over to see the name of the project and short description -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <a href="portfolio/friendfinder.html"><img class="img-fluid block-example border border-light"
-                                src="assets/images/friendfinder.png" alt="mockup friendfinder"></a>
+                    <div class="col-4">
+                        <img class="img-fluid block-example border border-light" src="../assets/images/party.png" alt="mockup party"></a>
                     </div>
-                    <div class="col-md-4">
-                        <a href="portfolio/liri.html"><img class="img-fluid block-example border border-light" src="assets/images/liri.png"
-                                alt="mockup liri"></a></div>
-                    <a href="portfolio/crystalcollector.html">
-                        <div class="col-md-4"><img class="img-fluid block-example border border-light" src="assets/images/crystals.png"
-                                alt="mockup crystals">
-                    </a>
+                    <div class="col-8">
+                        <!-- <div id="contact-text"> -->
+                        <p>
+                            Test your 90's music knowledge with this interactive web browser game that dynamically displays the HTML with the jQuery library
+                            and pulls data from multiple APIs.
+                            <br>
+                            <br>
+                            A timer will begin and lyrics of a song that existed in 1999 will begin to display on the screen.
+                            The user will try and guess the title of the song and submit their answer in the box below. Guessing correctly 
+                            will unlock the information page with the music video, full song and lyrics, and photos of the Artist/Band.
+                        </p>
+                        <!-- </div> -->
+                    </div>
                 </div>
             </div>
-            <br>
+
             <div class="row">
-                <a href="portfolio/party.html">
-                <div class="col-4"><img class="img-fluid block-example border border-light" src="assets/images/party.png"
-                        alt="mockup party"></a></div>
-                        <a href="portfolio/bamazon.html">
-                <div class="col-4"><img class="img-fluid block-example border border-light" src="assets/images/bamazon.png"
-                        alt="mockup bamazon"></a></div>
-                <div class="col-4"><img class="img-fluid block-example border border-light" src="assets/images/placeholder1.png"
-                        alt="mockup placeholder1"></div>
+                <div class="col-4">
+                    <span id="space">---</span>
+                </div>
+                <div class="col-4">
+                    <a href="https://jixuni.github.io/project_1-groupies-/">
+                        <button type="button" id="button-style" class="btn">
+                            <i class="fa fa-desktop" aria-hidden="true"></i>
+                            Live Demo</button></a>
+
+                    <a href="https://github.com/jixuni/project_1-groupies-">
+                        <button type="button" id="button-style" class="btn">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                            See Code</button></a>
+                </div>
             </div>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-4"><img class="img-fluid block-example border border-light" src="assets/images/placeholder2.png"
-                    alt="mockup party" width="300" height="500"></div>
-            <div class="col-4"><img class="img-fluid block-example border border-light" src="assets/images/placeholder3.png"
-                    alt="mockup bamazon" width="300" height="500"></div>
-            <div class="col-4"><img class="img-fluid block-example border border-light" src="assets/images/placeholder4.png"
-                    alt="mockup placeholder1" width="300" height="500"></div>
-        </div>
-    </div>
-
-
-    <!-- Container ends -->
-    </div>
     </div>
     </div>
 
@@ -112,12 +107,12 @@
         <nav class="navbar border-top border-light navbar-expand-lg navbar-light bg-white">
             <div class="container">
                 <div class="navbar-nav mr-auto">
-                    <a href="https://www.linkedin.com/in/beth-sergeant-69202656/" target="_blank"><img src="assets/images/linkedin.png"
+                    <a href="https://www.linkedin.com/in/beth-sergeant-69202656/" target="_blank"><img src="../assets/images/linkedin.png"
                             class="social" alt="Linkedin logo" style="width: 30px; height: 30px" id="social"></a><span
                         id=space>...</span>
-                    <a href="https://github.com/ersJava" target="_blank"><img src="assets/images/github.jpg" class="social"
+                    <a href="https://github.com/ersJava" target="_blank"><img src="../assets/images/github.jpg" class="social"
                             alt="Github logo" style="width: 28px; height: 28px" id="social"></a><span id=space>...</span>
-                    <a href="https://www.instagram.com/beth_sergeant/" target="_blank"><img src="assets/images/instagram.png"
+                    <a href="https://www.instagram.com/beth_sergeant/" target="_blank"><img src="../assets/images/instagram.png"
                             class="social" alt="Instagram logo" style="width: 26px; height: 26px" id="social"></a>
                 </div>
                 <span class="footer-text">
