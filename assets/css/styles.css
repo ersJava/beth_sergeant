@@ -27,7 +27,8 @@ main {
     font-weight: bolder;
     font-size: 42px;
     /* Blue */
-    color: #b2d2fe;
+    /* color: #b2d2fe; original blue*/
+    color: #a3c2ee;
 }
 
 /* Nav Style */
@@ -71,7 +72,7 @@ main {
 .hello-header-h3 {
     font-family: 'Carrois Gothic SC', sans-serif;
     font-size: 28px;
-    color: #b2d2fe;
+    color: #a3c2ee;
     text-align: left;
     line-height: 55px;
 
@@ -85,10 +86,17 @@ main {
     line-height: 30px;
 }
 
+#crystal-header {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 33px;
+    color: #d2c4e7;
+    line-height: 30px;
+}
+
 
 p {
     font-family: 'Cutive Mono', monospace;
-    margin: 50px;
+    /* margin: 50px; */
     font-weight: 700;
 
 }
@@ -121,11 +129,11 @@ p {
 
 /* Resume Button */
 #button-style {
-    color: black;
-    font-family: 'Cutive Mono', monospace;
-    /* font-family: 'Carrois Gothic SC', sans-serif; */
-    padding: 10px;
+    color: #a3c2ee;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    padding: 12px;
     background: white;
+    letter-spacing: 3px;
 }
 
 

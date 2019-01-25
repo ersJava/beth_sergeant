@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Cutive+Mono|Major+Mono+Display" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.1/css/mdb.min.css" rel="stylesheet">
@@ -24,25 +24,23 @@
 
     <nav class="navbar border-bottom border-light navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="hellopage.html" id="logo01">betH</a>
-            <a class="navbar-brand" href="hellopage.html" id="logo02">serGeant</a>
+            <a class="navbar-brand" href="../hellopage.html" id="logo01">betH</a>
+            <a class="navbar-brand" href="../hellopage.html" id="logo02">serGeant</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="about.html">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="../portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactme.html">Contact</a>
+                        <a class="nav-link" href="../contactme.html">Contact</a>
                     </li>
-
-
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -52,69 +50,60 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-
     <div class="container border-light">
         <div class="col-12" id="block">
             <div class="row">
                 <div class="col-4">
-                    <h1 class="content-header">About Me</h1>
+                    <h1 class="content-header">Friend Finder</h1>
                     <hr>
                 </div>
             </div>
 
             <div class="container">
-                <div class="row">
-                    <div class="col-md">
-                        <a href="portfolio/friendfinder.html"> <img src="assets/images/ers.jpg" alt="Photo of me"></a>
-                    </div>
-                    <div class="col-md">
-                        <p>
-                            Puppy kitty ipsum dolor sit good dog foot stick canary.
-                            Teeth Mittens grooming vaccine walk swimming nest good boy
-                            furry tongue heel furry treats fish. Cage run fast kitten
-                            dinnertime balll run foot park fleas throw house train licks
-                            stick dinnertime window. Yawn litter fish yawn toy pet gate
-                            throw Buddy kitty wag tail ball groom crate ferret heel wet nose
-                            Rover toys pet supplies. Yawn litter fish yawn toy pet gate
-                            throw Buddy kitty wag tail ball groom crate ferret heel wet nose
-                            Rover toys pet supplies.</p>
-                        <p>
-                            Puppy kitty ipsum dolor sit good dog foot stick canary.
-                            Teeth Mittens grooming vaccine walk swimming nest good boy
-                            furry tongue heel furry treats fish. Cage run fast kitten
-                            dinnertime balll run foot park fleas throw house train licks
-                            stick dinnertime window. Yawn litter fish yawn toy pet gate
-                            throw Buddy kitty wag tail ball groom crate ferret heel wet nose
-                            Rover toys pet supplies. Yawn litter fish yawn toy pet gate
-                            throw Buddy kitty wag tail ball groom crate ferret heel wet nose
-                            Rover toys pet supplies.
+            <div class="row">
+                <div class="col-4">
+                    <a href="portfolio/friendfinder.html"><img class="img-fluid block-example border border-light" src="../assets/images/friendfinder.png"
+                            alt="mockup friendfinder"></a>
+                </div>
+                <div class="col-8">
+                    <!-- <div id="contact-text"> -->
+<p>
+                        This full-stack site will ask 10 questions.
+                        Each answer is based on a scale from 1 to 5 on how much the user agrees
+                        or disagrees with a question.
+                        <br>
+                        <br>
+                        Friend Finder will calculate the score based on the user's answers,
+                        then compare the answers with those from other users,
+                        and match the results with the friend with the most compatible match.
+                        The name of the new best friend and photo will then be displayed!
                         </p>
-                    </div>
+                    <!-- </div> -->
                 </div>
-
-
-                <div class="row">
-                    <div class="col-4">
-                        <span id="space">---</span>
-                    </div>
-                    <div class="col-4">
-                        <a href="assets/images/resume.pdf">
-                            <button type="button" id="button-style" class="btn">
-                                <i class="fa fa-download" aria-hidden="true"></i>
-                                Download My Resume</button></a>
-                    </div>
-                    <div class="col-4">
-                        <span id="space">---</span>
-                    </div>
-                </div>
-
-
-
-
             </div>
         </div>
 
-    </div>
+            <div class="row">
+                <div class="col-4">
+                    <span id="space">---</span>
+                </div>
+                <div class="col-4">
+                    <a href="https://fathomless-plateau-41513.herokuapp.com">
+                        <button type="button" id="button-style" class="btn">
+                            <i class="fa fa-desktop" aria-hidden="true"></i>
+                            Live Demo</button></a>
+
+                    <a href="https://github.com/ersJava/FriendFinder">
+                        <button type="button" id="button-style" class="btn">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                            See Code</button></a>
+                </div>
+            </div>
+
+
+
+
+        </div>
     </div>
     </div>
 
@@ -125,12 +114,12 @@
         <nav class="navbar border-top border-light navbar-expand-lg navbar-light bg-white">
             <div class="container">
                 <div class="navbar-nav mr-auto">
-                    <a href="https://www.linkedin.com/in/beth-sergeant-69202656/" target="_blank"><img src="assets/images/linkedin.png"
+                    <a href="https://www.linkedin.com/in/beth-sergeant-69202656/" target="_blank"><img src="../assets/images/linkedin.png"
                             class="social" alt="Linkedin logo" style="width: 30px; height: 30px" id="social"></a><span
                         id=space>...</span>
-                    <a href="https://github.com/ersJava" target="_blank"><img src="assets/images/github.jpg" class="social"
+                    <a href="https://github.com/ersJava" target="_blank"><img src="../assets/images/github.jpg" class="social"
                             alt="Github logo" style="width: 28px; height: 28px" id="social"></a><span id=space>...</span>
-                    <a href="https://www.instagram.com/beth_sergeant/" target="_blank"><img src="assets/images/instagram.png"
+                    <a href="https://www.instagram.com/beth_sergeant/" target="_blank"><img src="../assets/images/instagram.png"
                             class="social" alt="Instagram logo" style="width: 26px; height: 26px" id="social"></a>
                 </div>
                 <span class="footer-text">
