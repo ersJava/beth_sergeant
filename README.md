@@ -7,3 +7,5 @@
 4. Make responsive
 5. Add updated resume
 6. Get real photos for placeit-mockups
+7. Function for contact form to send email http://reusableforms.com/d/o5/html5-contact-form-send-email
+https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form 
